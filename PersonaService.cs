@@ -32,7 +32,6 @@ namespace Proyecto1.Services
                 persona.Telefono = Convert.ToInt32(read["Telefono"]);
                 persona.Contraseña = read["Contraseña"].ToString();
                 persona.Provincia = read["Provincia"].ToString();
-                persona.Canton = read["Canton"].ToString();
                 persona.Distrito = read["Distrito"].ToString();
                 persona.DescripcionDireccion = read["DescripcionDireccion"].ToString();
                 persona.FechaNacimiento = Convert.ToDateTime(read["FechaNacimiento"]);
