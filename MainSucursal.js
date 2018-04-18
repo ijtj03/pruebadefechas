@@ -15,4 +15,3 @@ mainsucursal.controller('MainSucursalController', function ($scope, $http) {
                 });
         });
 
-});
